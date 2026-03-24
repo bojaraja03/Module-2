@@ -12,8 +12,17 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+```
+def result(a, b):
+    return a % b
+
+a = int(input())
+b = int(input())
+print("The result of the modulo operation is:", result(a, b))
+```
 
 ## Output
+<img width="470" height="211" alt="image" src="https://github.com/user-attachments/assets/53fd9506-f8fd-4202-9bcc-0140dfcca4a0" />
 
 ## Result
+The program successfully defines a function that computes the modulo of two numbers and returns the result.
